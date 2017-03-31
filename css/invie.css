@@ -39,9 +39,13 @@ Selector de id
 }
 
 */
+body {
+  font-family: 'Allerta', sans-serif;
+}
 
 .titulo {
   font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title-a {
@@ -58,6 +62,7 @@ Selector de id
 
 .guitarras h2 {
   font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .portada {
