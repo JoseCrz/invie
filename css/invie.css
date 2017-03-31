@@ -1,3 +1,43 @@
-body {
-  background: peru;
+/*--TIPOS DE SELECTORES--
+
+Selector Universal
+* {
+  border: red;
+  margin: 1px;
 }
+
+Selector de Etiqueta
+header {
+  background: blue;
+}
+
+ Selector descendente
+article h3 {
+  color: green;
+}
+
+Selector de clase
+.title-a {
+  background: yellow;
+}
+
+.title-b {
+  background: salmon;
+}
+
+Selector de id
+#header {
+  border: 3px solid black;
+}
+
+#portada {
+  border: 3px solid orange;
+}
+
+#guitarras {
+  border: 3px solid brown;
+}
+
+*/
+
+
