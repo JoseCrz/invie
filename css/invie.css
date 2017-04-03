@@ -69,16 +69,13 @@ body {
 .guitarras h2 {
   font-size: 35px;
   font-family: 'Montserrat', sans-serif;
-  width: 800px;
-  margin: auto;
 }
 
 .portada {
   background-image: url("../images/background.png");
   color: white;
   padding: 20px;
-  width: 800px;
-  margin: auto;
+
 }
 
 .portada button {
@@ -99,7 +96,8 @@ body {
   display: inline-block;
 }
 
-.header {
+
+.contenedor {
   width: 800px;
   margin: auto;
 }
