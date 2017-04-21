@@ -46,18 +46,61 @@ body {
   margin: 0;
 }
 
+table{
+  width: 100%;
+}
+
+th {
+  background: #273b47;
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+table, th, td {
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+
+input, textarea {
+  outline-color: #fd324e;
+}
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.background {
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+
 .button {
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   background: #fd324e;
   border: none;
-  padding: 7px;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 20px;
+  background: linear-gradient(to right,#ff7250, #fe344e);
+  text-decoration: none;
 }
 
 .titulo {
   font-size: 70px;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 0;
+}
+
+.titulo span {
+  text-decoration: underline;
 }
 
 .title-a {
@@ -72,6 +115,7 @@ body {
 
 .guitarras {
   color: #1F313C;
+  margin-bottom: 60px;
 }
 
 .guitarras h2 {
@@ -80,10 +124,9 @@ body {
 }
 
 .portada {
-  background-image: url("../images/background.png");
   color: white;
   padding: 20px;
-
+  height: 450px;
 }
 
 .portada button {
@@ -97,6 +140,11 @@ body {
   right: 0;
 }
 
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
 .menu li {
   display: inline-block;
   margin-left: 30px;
@@ -104,12 +152,7 @@ body {
 
 .logo {
   display: inline-block;
-}
-
-
-.contenedor {
-  width: 800px;
-  margin: auto;
+  margin-left: 0px;
 }
 
 .guitarra {
@@ -124,6 +167,10 @@ body {
   padding: 0;
 }
 
+.guitarra.b {
+  height: 190px;
+}
+
 .derecha {
   float: right;
   position: relative;
@@ -133,7 +180,6 @@ body {
 .izquierda {
   float: left;
   position: relative;
-  top: 87px;
 }
 
 .contenedor-guitarra-a {
@@ -142,6 +188,8 @@ body {
 
 .contenedor-guitarra-b {
   margin-left: 370px;
+  position: relative;
+  bottom: 90px;
 }
 
 .header {
@@ -206,31 +254,15 @@ body {
   margin-top: 10px;
 }
 
-table{
-  width: 100%;
-}
-
-th {
-  background: #273b47;
-  color: white;
-  padding: 10px 20px;
-  text-align: left;
-}
-
-td {
-  padding: 20px;
-}
-
-table, th, td {
-  border: 1px solid #273b47;
-  border-collapse: collapse;
-}
-
 /*pseudoelemento*/
 
 .menu li:before{
-  content: '¤';
+  content: '¤ ';
   font-size: 20px;
   line-height: 20px;
-  color: blue;
+  color: white;
+}
+
+.tabla {
+  margin: 120px auto;
 }
